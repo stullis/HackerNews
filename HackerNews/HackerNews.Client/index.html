@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="Content/angular-material.min.css">
+    <title> Angular App</title>
+</head>
+<body ng-app="HackerNews" ng-cloak>
+
+    <div ng-view class="">
+
+    </div>
+
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-animate.min.js"></script>
+    <script src="Scripts/angular-aria.min.js"></script>
+    <script src="Scripts/angular-messages.min.js"></script>
+
+    <!-- Angular Material Library -->
+    <script src="Scripts/angular-material.min.js"></script>
+    
+
+    <script src="Scripts/angular-route.min.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/HackerNewsBest/hackerNewsBestService.js"></script>
+    <script src="app/HackerNewsBest/HackerNewsBestController.js"></script>
+    
+</body>
+</html>
